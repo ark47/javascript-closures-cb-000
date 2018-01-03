@@ -1,7 +1,7 @@
 const app = "I don't do much."
 
 function fatBastard(meal) {
-  function whatsForDinner() { // whatsForDinner() is an inner function, a closure
+  function whatsForDinner() { // whatsForDinner() is an inner function; a closure
     if (!meal) { // whatsForDinner() uses argument provided to the parent function
       console.log('My belly is empty. Woe is me.');
     } else if (meal === 'Mini-Me') {
@@ -12,7 +12,7 @@ function fatBastard(meal) {
   }
 
   function digest() { // digest() is an inner function, a closure
-    meal = undefined; // digest() uses argument provided to the parent function
+    meal = undefined; // digest() uses argument provided to the parent function and undefines it.
   }
 
   return {
