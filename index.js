@@ -26,6 +26,10 @@ whatsForDinner(); // prints 'I'm eatin' a bit of ribeye! Burp.'
 digest();
 whatsForDinner(); // prints 'My belly is empty. Woe is me.'
 
+
+/////////////////////////////////////
+
+
 function raspyDoorGuy() {
   const password = 'yarr'; // password is a local variable created by raspyDoorGuy()
 
